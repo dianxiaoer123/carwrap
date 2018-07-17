@@ -1,0 +1,459 @@
+body{
+    font-family: Microsoft YaHei;
+    overflow: hidden;
+}
+.clear{
+   clear: both;
+}
+header{
+    background: #1a1a1a;
+}
+.contactBox{
+    display: inline-block;
+    float: right;
+    color:white;
+    margin-top: 10px;
+}
+
+.contactBox div{
+    height: 30px;
+    line-height: 30px;
+}
+.phone{
+    margin-top: 4px;
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    background: url(../images/phone2.png) no-repeat;
+    background-size: 100% 100%;
+}
+.addr{
+    margin-top: 4px;
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    background: url(../images/icon_ty-gps.png) no-repeat;
+    background-size: 100% 100%;
+}
+.contactBox div span{
+    float: left;
+    margin-right: 5px;
+    font-size: 18px;
+}
+.navLik a{
+  display: inline-block;
+  color:#333;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  padding:0px 45px;
+  position: relative;
+}
+a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+.swiper-container {
+    width: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.bannerBox{
+    position: relative;
+    width: 100%;;
+}
+.swiper-slide img{
+    display: block;
+    width:100%;
+}
+.wordFrame{
+    position: absolute;
+    top:20%;
+    left:0px;
+    width: 100%;
+    text-align: center;
+    color:white;
+    z-index: 100000;
+}
+.formBox{
+    background: #873790;
+    padding:20px 0px;
+}
+.titleLabel{
+    color:#fff;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+}
+.inputBox{
+    padding:10px 30px;
+}
+.inputBox input,.inputBox select{
+    width:100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    border-radius: 5px;
+    border:0px;
+    text-indent: 15px;
+}
+.radioLable{
+    float: left;
+    margin-right: 30px;
+}
+.radioLable input{
+    float: left;
+    width: 25px;
+    height: 25px;
+}
+.radioLable i{
+    margin-left: 5px;
+    float: left;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color:white;
+    font-style: normal;
+    font-size: 16pxl
+}
+.inputBox p{
+    color:white;
+    font-size: 20px;
+}
+.bomCheck{
+    margin-top: 20px;
+    border-top: 1px solid #9853a3;
+    padding-top: 15px;
+}
+.blackBtn{
+    float: right;
+    width: 200px;
+    height: 50px;
+    background: #181f27;
+    color:white;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+}
+.boxNmse{
+    color:#333;
+    border-bottom: 1px solid #333;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    padding:0px 5px;
+}
+.boxNmse .leftName{
+    float: left;
+    font-size: 18px;
+}
+.boxNmse .rightName{
+    float: right;
+}
+.boxNmse .rightName a{
+    color:#333;
+}
+.inside img{
+    display: block;
+    width:100%;
+}
+.btName{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+.bomBx .leftbx,.bomBx .rightbx{
+    float: left;
+    width:50%;
+}
+.bomBx .leftbx p{
+    margin-top: 15px;
+  
+}
+.price b{
+    font-size: 20px;
+}
+.price i{
+    font-style: normal;
+    font-size: 12px;
+    color:gray;
+}
+.rightbx a{
+    padding:10px 15px;
+    background: #2581fe;
+    color:white;
+    font-size: 14px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 15px;
+   
+}
+.bomBx{
+    padding:5px;
+}
+.inside,.detailImg,.tipBox{
+    border:1px solid #eee;
+  
+   
+}
+.tipBox{
+    height: 240px;
+}
+.detailImg {
+    height: 240px;
+    /* overflow: hidden; */
+}
+.detailImg img{
+    height:100%;
+    width: 100%;
+}
+.tname h2{
+  font-size: 16px;
+  color:#15cb98;
+  font-weight: bold;
+}
+.tname p{
+    font-size: 12px;
+    color:gray;
+}
+.tname{
+    text-align: center;
+}
+.moreInfo{
+    width: 100%;
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    background:#15cb98;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; 
+}
+.graySp{
+    color:gray;
+    padding:5px 0px;
+}
+footer{
+    padding:20px 0px;
+    background: #343434;
+    text-align: center;
+    margin-top: 10px;
+}
+.ftBox{
+    color:white;
+}
+.ftBox p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.reatbox{
+    color:white;
+    padding-bottom: 20px;
+}
+footer{
+    background: #343434;
+    padding:40px 0px;
+}
+
+.reatbox img{
+    float: left;
+    width: 50px;
+}
+.hcont{
+    float: left;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+}
+.copyright{
+    background: white;
+    text-align: center;
+    color:gray;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+@media screen and (min-width:320px){
+    .tipBox{
+        height: auto;
+    }
+    .reatbox{
+        padding-left: 10px;
+    }
+    .logo img{
+       width:220px;
+     }
+     .logo{
+        padding:10px 0px;
+      }
+     .contactBox{
+         display: none;
+     }
+     .moreLik{
+        text-align: right;
+        display: block;
+    }
+    .moreLik img{
+        width:20px;
+        margin-right: 10px;
+    }
+    .navLik{
+        position: absolute;
+        right: 0px;
+        top:30px;
+        width:100px;
+        background: #1a1a1a;
+    }
+    .navLik .more a{
+        padding:0px;
+        color:white;
+        text-align: center;
+        display: block;
+        font-size: 15px;
+    }
+    .more{
+        display: none;
+    }
+    .navLik:hover .more{
+        display: block;
+    }
+    .wordFrame h2{
+        font-size: 18px;
+    }
+    .wordFrame h3{
+        font-size: 12px;
+    }
+    .wordBtn a{
+        display: inline-block;
+        background: white;
+        width: 100px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        font-size: 14px;
+        color:#333;
+        border-radius: 5px;
+    }
+    .wordBtn a+a{
+        margin-left: 10px;
+        background: #873790;
+        color: #fff;
+    }
+ }
+ @media screen and (min-width:768px){
+    .tipBox{
+        height: 240px;
+    }
+    .reatbox,.reatbox1{
+        padding-left: 0px;
+    }
+    .reatbox1{
+        float: right;
+    }
+    .reatbox2{
+        float: left;
+    }
+    .wordFrame h2{
+        font-size: 58px;
+    }
+    .wordFrame h3{
+        font-size: 22px;
+    }
+    .wordBtn{
+        margin-top:30px;
+    }
+    .wordBtn a{
+        display: inline-block;
+        background: white;
+        width: 200px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        font-size: 16px;
+        color:#333;
+        border-radius: 5px;
+    }
+    .wordBtn a+a{
+        margin-left: 10px;
+        background: #873790;
+        color: #fff;
+    }
+    .ahoverd{
+        border-right: 2px solid black;
+      }
+      .ahoverd::before{
+          content: ' ';
+          position: absolute;
+          left: 0px;
+          width: 100%;
+          top:-10px;
+          display: block;
+          height: 10px;
+          background: white;
+      } 
+    .contactBox{
+        display: block;
+    }
+    header{
+       padding:10px 20px;
+    }
+    .logo{
+        text-align: left;
+    }
+    .moreLik{
+        display: none;
+    }
+    .more{
+        display: block;
+    }
+    .navLik{
+        position: static;
+        right: 0px;
+        top:30px;
+        width:auto;
+        background: white;
+    }
+    .navLik .more a{
+        display: inline-block;
+        color:#333;
+        font-size: 20px;
+        height: 50px;
+        line-height: 50px;
+        padding:0px 45px;
+       
+    }
+ }
+@media screen and (min-width:1200px){
+   header{
+      padding:40px 10%;
+   }
+   .navLik{
+       padding:0px 10%;
+   }
+   .formBox,.listProbox{
+       padding:0px 50px;
+   }
+
+ 
+}
