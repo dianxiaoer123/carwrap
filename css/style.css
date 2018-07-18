@@ -292,9 +292,362 @@ footer{
     height: 50px;
     line-height: 50px;
 }
+.listWrap{
+    margin: 0px auto;
+    margin-top: 10px;
+    background:white;
+    padding:5px 10px;
+}
+.listName{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #eee;
+}
+.listName .sname{
+    float: left;
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.listName .rname{
+   float: right;
+   padding-right: 10px;
+}
+.twoTitle{
+    /* height: 40px; */
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.twoTitle span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.twoTitle a{
+    padding:5px 15px;
+    background: #2581fe;
+    color:white;
+}
+.seltct{
+    background: gold !important;
+}
+.primg img{
+    display: block;
+    width:100%;
+}
+.wordcar h2{
+    font-size: 16px;
+    font-weight: bold;
+    color:#1a1a1a;
+}
+.wordcar p{
+    color:gray;
+}
+.wordcar .ysproce span{
+   font-size: 20px;
+   color:#f87209;
+}
+.dayProce{
+    font-size: 14px;
+    margin-top: 30px;
+}
+.dayProce span{
+   color: #f87209;
+   font-size: 24px;
+   font-weight: bold;
+}
+.chooseDian{
+    padding:10px 15px;
+    background: #0088cc;
+    color:white;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.listDetail .col-md-6{
+    border-bottom: 1px dashed #eee;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.mxWrap{
+    margin-top: 10px;
+    /* background: white; */
+    padding:10px 20px;
+}
+.hotlist{
+    background: white;
+}
+.hotname{
+    text-indent: 20px;
+    height: 50px;
+    line-height: 50px;
+    color:#999;
+}
+.hotname span{
+    font-size: 18px;
+    font-weight: bold;
+    color:#0985cb;
+    margin-right: 10px;
+}
+.hotlist ul li{
+    margin-top: 10px;
+    padding:10px 20px;
+    border-bottom: 1px dashed #eee;
+}
+.hotlist ul li img{
+    display: block;
+    width: 100%;
+}
+.liname{
+    color:#aaa;
+    font-size: 14px;
+    text-align: center;
+}
+.liname b{
+    font-size: 16px;
+    color: #0985cb;
+}
+.liname span{
+   color: #f87209;
+   font-weight: bold;
+   font-size: 24px;
+}
+.cardBoxWrap{
+    background: white;
+    padding:20px;
+}
+.cbBox{
+    padding:10px 10px;
+}
+.cbBox .cblsf{
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color:gray;
+}
+.cbBox .cbfrg{
+    float: right;
+}
+.cbBox .cbfrg a{
+    padding:10px 20px;
+    background: #0088cc;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cardNma{
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #61a1df;
+    text-indent: 10px;
+    margin-top: 20px;
+}
+.cpname{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #eee;
+}
+.orderList{
+    margin-top: 20px;
+    background:white;
+}
+.orderbox{
+    background:white;
+}
+.orderbox .orname{
+    font-size: 26px;
+    padding:5px 20px;
+}
+.orderbox .orname p{
+    color:gray;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.orname p span{
+  color:#000;
+  margin-right: 15px;
+}
+.orname p span i{
+    font-style: normal;
+    font-size: 22px;
+    color:#e65a05;
+    font-weight: bold;
+}
+.outtab .leftout{
+    width: 30%;
+    float: left;
+    border:1px solid #c4c2c2;
+    background: #eeeeee;
+    text-align: center;
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+}
+.outtab .rightout{
+    width: 70%;
+    float: left;
+    border:1px solid #c4c2c2;
+    height: 50px;
+    line-height: 50px;
+}
+.outtab{
+    width:50%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+.dateTable{
+    padding-right: 30px;
+}
+.rightout {
+    text-align: center;
+}
+.carformName{
+    background: #f3f3f3;
+    border-bottom: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    margin-right: 30px;
+    text-indent: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+}
+.inputBox1 .lbname{
+    width:80px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+.inputBox1 .lbname::before{
+    color:red;
+    content: '*';
+
+}
+.inputBox1 input{
+    float: left;
+    width:150px;
+    height: 30px;
+    line-height: 30px;
+    border:1px solid #eee;
+}
+.inputBox1 select{
+    float: left;
+    width:150px;
+    height: 30px;
+    border:1px solid #eee;
+}
+.inputBox1 .col-md-6{
+    margin-top: 10px;
+}
+.inputBox1{
+    margin-right: 30px;
+    border:1px solid #eee;
+    padding:10px 0px;
+    padding-left: 10px;
+}
+.freename{
+    height: 40px;
+    line-height: 40px;
+    text-indent: 15px;
+    background:#fef1e9;
+    font-weight: bold;
+    font-size: 15px;
+    color:#f76800;
+}
+.freeBox{
+    background: #fffbf8;
+    padding-bottom: 10px;
+    /* border:1px solid #eee; */
+}
+.clName{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    /* margin-top: 70px; */
+}
+.clPrice{
+    font-weight: bold;
+    font-size: 26px;
+    color:#f76800;
+    /* margin-top: 70px; */
+}
+.wbiteBox{
+    display: inline-block;
+    padding:10px 25px;
+    border:1px solid #64a0df;
+    margin-top:10px;
+    background:White;
+  
+}
+.wbiteBox p{
+    padding:0px;
+    margin:0px;
+}
+.bluelf{
+    color:#64a0df;
+}
+.frLabl{
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #eee;
+    /* border-bottom: 1px solid #eee; */
+    margin-right: 30px;
+    background: #fffbf8;
+}
+.frLabl .frlef{
+  float: left;
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 20px;
+}
+.frLabl .rgtef{
+    float: right;
+    font-size:24px;
+    color:#fb6800;
+    padding-right: 20px;
+}
+.freeJage{
+    text-align: right;
+    margin-right: 30px;
+    border:1px solid #eeeeee;
+    height: 60px;
+    line-height: 60px;
+    padding-right: 20px;
+}
+.freeJage span{
+    color:#fb6800;
+    font-weight: bold;
+    font-size: 22px;
+}
+.sureBtn{
+    display: block;
+    width:200px;
+    height: 50px;
+    line-height: 50px;
+    background: #fb6800;
+    color:white;
+    font-size: 22px;
+    font-weight: bold;
+    float: right;
+    text-align: center;
+    margin-right: 30px;
+}
 
 
 @media screen and (min-width:320px){
+    .sureBtn{
+        margin-right: 0px;
+    }
+    .freeBox,.freeJage,.frLabl,.inputBox1,.dateTable,.carformName{
+        margin-right: 0px;
+    }
+    .dateTable{
+        padding-right: 0px;
+    }
     .tipBox{
         height: auto;
     }
@@ -454,6 +807,30 @@ footer{
    .formBox,.listProbox{
        padding:0px 50px;
    }
-
+   .listWrap,.mxWrap,.orderList{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+   .freeBox{
+       margin-right: 30px;
+   }
+   .clName{
+    margin-top: 70px;
+}
+.clPrice{
+    margin-top: 70px;
+}
+.sureBtn{
+    margin-right: 30px;
+}
+.freeBox,.freeJage,.frLabl,.inputBox1,.dateTable,.carformName{
+    margin-right: 30px;
+}
+.dateTable{
+    /* padding-right: 30px; */
+}
+.freeBox{
+  /* padding-right: 30px; */
+}
  
 }
